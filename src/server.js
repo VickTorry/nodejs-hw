@@ -9,7 +9,7 @@ import { notFoundHandler } from './middleware/notFoundHandler.js';
 import { errorHandler } from './middleware/errorHandler.js';
 import { logger } from './middleware/logger.js';
 import notesRoutes from './routes/notesRoutes.js';
-import { Note } from './models/notes.js';
+import { Note } from './models/note.js';
 
 const app = express();
 const PORT = process.env.PORT ?? 3000;
