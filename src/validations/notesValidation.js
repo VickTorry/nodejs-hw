@@ -63,3 +63,6 @@ export const updateNoteSchema = {
     noteId: Joi.string().custom(objectIdValidator).required(),
   }),
 };
+
+
+
